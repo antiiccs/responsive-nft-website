@@ -82,7 +82,72 @@
                             <img src="assets/img/istockphoto-1359921621-612x612-removebg-preview.png" alt="home image">
                         </div>
                     </div>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Redirect Example</title>
+<style>
+  /* Body styling for background */
+  body {
+    background-color: #f4f4f4; /* A light background color for better contrast */
+    padding: 0;
+    margin: 0;
+  }
 
+  /* Container for positioning */
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20px; /* Left padding */
+  }
+
+  /* Styling for the button */
+  #mintButton {
+    background-color: #8B00FF; /* Galactic purple background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline block display */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+  /* Hover effect */
+  #mintButton:hover {
+    background-color: #6A0DAD; /* Darker shade of galactic purple on hover */
+  }
+</style>
+</head>
+<body>
+
+<!-- Container for positioning -->
+<div class="container">
+  <!-- HTML Button -->
+  <button id="mintButton">Click here to mint!</button>
+</div>
+
+<script>
+  // JavaScript Function to redirect to the specified link
+  function redirectToLink() {
+    var link = "https://launchmynft.io/collections/Fe6gzHq69fkiAQ4hCpxYtAk5RQ1Pm4WSEzCvCMQwq6Du/8mzDyOIfTXq4g1DW7uVk";
+    window.location.href = link;
+  }
+
+  // Add an event listener to the button
+  document.getElementById("mintButton").addEventListener("click", redirectToLink);
+</script>
+
+</body>
+</html>
 
                 </div>
 
