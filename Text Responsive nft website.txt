@@ -14,9 +14,8 @@ Community
 
 ========== HOME ==========
 .home__title
-<span>Discover</span> <br>                    
-Collect, and <br>
-sell NFTs.
+<span>Saga Genesis</span> <br>                    
+reborn.
 
 .home__description
 Explore on the world best largest NFT marketplace.
